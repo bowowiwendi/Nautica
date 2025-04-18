@@ -1,8 +1,8 @@
-name = "nautica"
+name = "bot_cf"
 main = "_worker.js"
 compatibility_date = "2025-04-17"
 [[kv_namespaces]]
 binding = "KV_ACCOUNTS"
-id = "<YOUR_KV_NAMESPACE_ID>"
+id = "8abb07b523d146f09ab755d68f732b78"
 [vars]
 PROXY_BANK_URL = "https://raw.githubusercontent.com/<your-username>/<your-repo>/main/vip.txt"
