@@ -1,9 +1,8 @@
 name = "nautica"
 main = "_worker.js"
-compatibility_date = "2023-08-23"
-
-[unsafe.metadata.observability]
-enabled = true
-
-[observability.logs]
-enabled = true
+compatibility_date = "2025-04-17"
+[[kv_namespaces]]
+binding = "KV_ACCOUNTS"
+id = "<YOUR_KV_NAMESPACE_ID>"
+[vars]
+PROXY_BANK_URL = "https://raw.githubusercontent.com/<your-username>/<your-repo>/main/vip.txt"
